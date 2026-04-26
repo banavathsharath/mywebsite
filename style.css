@@ -1,0 +1,170 @@
+/* Base */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+    transition: 0.3s;
+}
+
+/* Avatar */
+.avatar-img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+
+    border: 3px solid #00c6ff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #00c6ff !important;
+}
+
+.navbar-brand {
+    color: #00c6ff !important;
+    font-weight: 600;
+}
+
+.light .navbar-brand {
+    color: #0072ff !important;
+}
+
+/* Hero */
+.hero {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass (PROFILE BOX IMPROVED) */
+.glass {
+    padding: 35px 40px;
+    border-radius: 18px;
+    max-width: 420px;
+    width: 100%;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(14px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+
+/* Section box */
+.box {
+    margin: 15px auto;
+    max-width: 1100px;
+    width: 92%;
+    padding: 32px 40px;
+
+    border-radius: 18px;
+    background: rgba(255,255,255,0.08);
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.45);
+}
+
+/* Sections */
+.section {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.compact {
+    padding: 20px 10px;
+}
+
+/* Text */
+.small-text {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* About improvements */
+#about p {
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.dot-list {
+    list-style-type: disc;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+
+.dot-list li {
+    margin-bottom: 6px;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: rgba(255,255,255,0.1);
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* Cards */
+.card-modern {
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.08);
+    transition: 0.2s;
+}
+
+.card-modern:hover {
+    transform: translateY(-5px);
+}
+
+/* Highlight */
+.highlight {
+    color: #00c6ff;
+}
+
+/* Button */
+.btn-modern {
+    margin-top: 12px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* Light mode */
+.light {
+    background: #f4f4f4;
+    color: #222;
+}
+
+.light .navbar {
+    background: #ffffff;
+}
+
+.light .nav-link {
+    color: #222 !important;
+}
+
+.light .box,
+.light .glass {
+    background: rgba(0,0,0,0.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
